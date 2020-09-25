@@ -21,5 +21,6 @@ for box in bboxes:
 	rectangle(pixels, (x, y), (x2, y2), (0,0,255), 1)
 imshow('face detection', pixels)
 print(Completed successfully !!)
+print(ctrl+c or close the image to exit)
 waitKey(0)
 destroyAllWindows()
